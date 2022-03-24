@@ -6,11 +6,9 @@ export default function Navbar({ fixed }) {
 			<nav className='relative flex flex-wrap items-center justify-between px-2 py-3 bg-sky-500  sticky top-0'>
 				<div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
 					<div className='w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start'>
-						<a
-							className='text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white text-[16px]'
-							href='#'>
+						<div className='text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white text-[16px] hover:cursor-pointer'>
 							EQUILIBRIUM(logo)
-						</a>
+						</div>
 						<button
 							className='cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
 							type='button'>
@@ -22,49 +20,39 @@ export default function Navbar({ fixed }) {
 					<div className='lg:flex flex-grow items-center'>
 						<ul className='flex flex-col lg:flex-row list-none ml-auto'>
 							<li className='nav-item '>
-								<a
-									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#home'>
+								<div className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 hover:cursor-pointer'>
 									<span className='ml-2 text-[16px]'>
 										Home
 									</span>
-								</a>
+								</div>
 							</li>
 							<li className='nav-item'>
-								<a
-									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#about'>
+								<div className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 hover:cursor-pointer'>
 									<span className='ml-2 text-[16px]'>
 										About
 									</span>
-								</a>
+								</div>
 							</li>
 							<li className='nav-item'>
-								<a
-									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#clubs'>
+								<div className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 hover:cursor-pointer'>
 									<span className='ml-2 text-[16px]'>
 										Clubs
 									</span>
-								</a>
+								</div>
 							</li>
 							<li className='nav-item'>
-								<a
-									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#membership'>
+								<div className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 hover:cursor-pointer'>
 									<span className='ml-2 text-[16px]'>
 										Membership
 									</span>
-								</a>
+								</div>
 							</li>
 							<li className='nav-item'>
-								<a
-									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#contact'>
+								<div className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 hover:cursor-pointer'>
 									<span className='ml-2 text-[16px]'>
 										Contact
 									</span>
-								</a>
+								</div>
 							</li>
 						</ul>
 					</div>

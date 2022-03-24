@@ -10,12 +10,10 @@ const Card = ({ name, description }) => {
 				</a>
 				<div className='p-6 bg-sky-400'>
 					<h5 className='text-gray-900 text-xl font-medium mb-2'>
-						Event title
+						{name}
 					</h5>
 					<p className='text-gray-700 text-base mb-4'>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Impedit nostrum adipisci cumque magnam aut eum harum
-						veritatis iste, fugiat cupiditate mollitia quam maiores
+						{description}
 					</p>
 					<button
 						type='button'
