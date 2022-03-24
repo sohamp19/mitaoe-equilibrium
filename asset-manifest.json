@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mitaoe-equilibrium/static/css/main.0fe2bc7d.css",
-    "main.js": "/mitaoe-equilibrium/static/js/main.c590c947.js",
+    "main.css": "/mitaoe-equilibrium/static/css/main.2ab6fa49.css",
+    "main.js": "/mitaoe-equilibrium/static/js/main.dfd15610.js",
     "static/media/bg.jpeg": "/mitaoe-equilibrium/static/media/bg.5076e3139ccbccbcfe13.jpeg",
     "static/media/equilogo.png": "/mitaoe-equilibrium/static/media/equilogo.7d199993517470530907.png",
     "index.html": "/mitaoe-equilibrium/index.html",
-    "main.0fe2bc7d.css.map": "/mitaoe-equilibrium/static/css/main.0fe2bc7d.css.map",
-    "main.c590c947.js.map": "/mitaoe-equilibrium/static/js/main.c590c947.js.map"
+    "main.2ab6fa49.css.map": "/mitaoe-equilibrium/static/css/main.2ab6fa49.css.map",
+    "main.dfd15610.js.map": "/mitaoe-equilibrium/static/js/main.dfd15610.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fe2bc7d.css",
-    "static/js/main.c590c947.js"
+    "static/css/main.2ab6fa49.css",
+    "static/js/main.dfd15610.js"
   ]
 }
