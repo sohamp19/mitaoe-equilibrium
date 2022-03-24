@@ -22,7 +22,7 @@ function App() {
 				intellectual, technical, physical, social, emotional, and
 				ethical development of students in a holistic way.
 			</p>
-			<div className='flex flex-wrap justify-start m-10 mt-20 col-span-3  '>
+			<div className='flex flex-wrap justify-center ml-10 mr-10 mt-20 col-span-3  '>
 				<div className='basis-1/3 '>
 					<Card />
 				</div>

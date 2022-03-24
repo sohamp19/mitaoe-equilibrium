@@ -3,7 +3,7 @@ import equilogo from '../img/equilogo.png';
 
 const Card = ({ name, description }) => {
 	return (
-		<div className='flex w-max mb-10 hover:shadow-sky-800 hover:shadow-2xl'>
+		<div className='flex w-max mb-10 hover:shadow-sky-800 hover:shadow-2xl justify-center'>
 			<div className='rounded-lg shadow-lg bg-white max-w-sm'>
 				<a href='#!'>
 					<img className='rounded-t-lg ' src={equilogo} alt='' />
