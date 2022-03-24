@@ -8,7 +8,7 @@ export default function Navbar({ fixed }) {
 					<div className='w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start'>
 						<a
 							className='text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white text-[16px]'
-							href='#pablo'>
+							href='#'>
 							EQUILIBRIUM(logo)
 						</a>
 						<button
@@ -24,7 +24,7 @@ export default function Navbar({ fixed }) {
 							<li className='nav-item '>
 								<a
 									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#pablo'>
+									href='#home'>
 									<span className='ml-2 text-[16px]'>
 										Home
 									</span>
@@ -33,7 +33,7 @@ export default function Navbar({ fixed }) {
 							<li className='nav-item'>
 								<a
 									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#pablo'>
+									href='#about'>
 									<span className='ml-2 text-[16px]'>
 										About
 									</span>
@@ -42,7 +42,7 @@ export default function Navbar({ fixed }) {
 							<li className='nav-item'>
 								<a
 									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#pablo'>
+									href='#clubs'>
 									<span className='ml-2 text-[16px]'>
 										Clubs
 									</span>
@@ -51,7 +51,7 @@ export default function Navbar({ fixed }) {
 							<li className='nav-item'>
 								<a
 									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#pablo'>
+									href='#membership'>
 									<span className='ml-2 text-[16px]'>
 										Membership
 									</span>
@@ -60,7 +60,7 @@ export default function Navbar({ fixed }) {
 							<li className='nav-item'>
 								<a
 									className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
-									href='#pablo'>
+									href='#contact'>
 									<span className='ml-2 text-[16px]'>
 										Contact
 									</span>
